@@ -10,8 +10,10 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@config-plugins/ffmpeg-kit-react-native": "^0.0.1",
     "expo": "~44.0.0",
     "expo-status-bar": "~1.2.0",
+    "ffmpeg-kit-react-native": "^4.5.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-native": "0.64.3",

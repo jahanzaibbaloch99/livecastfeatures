@@ -1052,7 +1052,15 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@expo/config-plugins@4.0.16", "@expo/config-plugins@^4.0.2":
+"@config-plugins/ffmpeg-kit-react-native@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@config-plugins/ffmpeg-kit-react-native/-/ffmpeg-kit-react-native-0.0.1.tgz#d55845b59c68efe0dc655bd40209a0b15b6c3e37"
+  integrity sha512-otK3Ds7QflvElCaPkY9Qg7mGRA9oKBg+UwIvsvjvRKX8g0hVrbcKLd+D/xc3jJ0t2xXVUVH/7deWD0C4GOmz3A==
+  dependencies:
+    "@expo/config-plugins" "^4.0.7"
+    semver "^7.3.5"
+
+"@expo/config-plugins@4.0.16", "@expo/config-plugins@^4.0.2", "@expo/config-plugins@^4.0.7":
   version "4.0.16"
   resolved "https://registry.yarnpkg.com/@expo/config-plugins/-/config-plugins-4.0.16.tgz#832fb533245180c6dfd82fd359474f68a8e857b2"
   integrity sha512-UTyE5JTBatMSwoOZCtX0u2H3zkp/ybMftc1228ARMop35Dbq+sYO11Ym3MrY5RPh8PYPofokDSOvoUq1jjORXw==
@@ -2622,6 +2630,11 @@ fbjs@^3.0.0:
     promise "^7.1.1"
     setimmediate "^1.0.5"
     ua-parser-js "^0.7.30"
+
+ffmpeg-kit-react-native@^4.5.1:
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/ffmpeg-kit-react-native/-/ffmpeg-kit-react-native-4.5.1.tgz#ce964a16f39b92332076f5cd983e343cdd45d676"
+  integrity sha512-0+ubxRRkMMHCbLZPEevT4643IHKK7aQqjxQJgNl9pZCvN7+p5C1Bku0Sa9G0uzZWCf40z2MQOnAzFHolq00uOQ==
 
 fill-range@^4.0.0:
   version "4.0.0"

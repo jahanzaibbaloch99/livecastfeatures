@@ -27,6 +27,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "@config-plugins/ffmpeg-kit-react-native",
+        {
+          "package": " full-gpl"
+        }
+      ]
+    ]
   }
 }
